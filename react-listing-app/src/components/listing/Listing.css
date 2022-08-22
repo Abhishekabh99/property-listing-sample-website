@@ -1,0 +1,7 @@
+.listing-section {
+    
+flex: 9; /*occupy 9 parts from total 12 parts so that sidebar can take 3 parts */
+display: flex;
+flex-wrap: wrap;/* try to equally place the childrens on the same row based on total wodth and push the rest to next row */ 
+margin: 20px;
+}

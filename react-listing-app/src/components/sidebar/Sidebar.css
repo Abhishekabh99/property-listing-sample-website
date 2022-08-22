@@ -1,0 +1,66 @@
+.sidebar-section {
+
+    flex: 3; /*occupy 3 parts from total of 12 parts so that listing can take 3 parts*/
+    margin: 20px;
+    padding-bottom: 32px;
+    background-color: rgb(238, 226, 213);
+    border-radius: 12px;
+    align-items: center;
+    flex-direction: column;
+}
+.sidebar-subsection {
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+.sidebar-title {
+text-transform: uppercase;
+padding: 6px;
+margin: 12px;
+border-top: 1px solid rgb(15, 134, 98);
+border-bottom: 1px solid rgb(15, 134, 98);
+font-family: 'Raleway', sans-serif;
+line-height: 22px;
+font-weight: 600;
+
+}
+.sidebar-img {
+width: 200px;
+height: 200px;
+object-fit: cover;
+border-radius: 6px;
+margin-top: 10px;
+}
+
+.sidebar-subsection > p { /*targets the 1st p tag inside element which is using the class as side bar section */ 
+padding: 28px;
+ text-align: center;
+}
+.sidebar-categories {
+    list-style: none;
+    margin-bottom: 25px;
+  
+}
+.sidebar-category {
+    display: inline-block; /*it is a famous display flex with row*/
+    width: 50%;
+  margin-top: 12px;
+     text-align: center;
+     cursor: pointer;
+}
+.sidebar-social-icons {
+    margin-top: 12px;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sidebar-social-icon {
+    margin-right: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    color: rgb(15, 82, 59);
+
+}
