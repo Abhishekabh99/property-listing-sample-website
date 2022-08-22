@@ -10,6 +10,7 @@ do----------> npm install react-scripts --save <-------------- before npm start 
 
 nodemodules is very space occupying folder it should not be added to git thats why
 
+any contributions are welcomed!
 
 good luck 
 
